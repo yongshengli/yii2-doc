@@ -100,8 +100,8 @@ trait ApiDocTrait
         return [
             'swagger'=>"2.0",
             'info'=>[
-                'title'=> "bss-web api文档",
-                'description'=>"bss-web api文档",
+                'title'=> Yii::$app->name." api文档",
+                'description'=>Yii::$app->name ." api文档",
                 'version'=> "1.0.0",
                 'contact'=> [
                     'email'=> "liyongsheng@meicai.cn"

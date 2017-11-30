@@ -22,7 +22,7 @@ class Controller extends \yii\rest\Controller
 {
     use ApiDocTrait;
     public $serializer = [
-        'class' => 'app\components\Serializer',
+//        'class' => 'app\components\Serializer',
         'collectionEnvelope' => 'items'
     ];
     /**
