@@ -305,8 +305,8 @@ trait ApiDocTrait
             }
             switch(true){
                 case ($matchList[1]=='param' && isset($matchList[2])):
-                    $docArr['param'][] = $matchList[2];
-                    break;
+//                    $docArr['param'][] = $matchList[2];
+//                    break;
                 case ($matchList[1]=='query-param' && isset($matchList[2])):
                     $docArr['query-param'][] = $matchList[2];
                     break;
