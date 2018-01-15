@@ -8,6 +8,9 @@ yii2-doc根据action注释生成swagger所需的json文件
 
 demo
 ---------------------------------------------------
+get参数可以使用query-param 
+也可以用request-param + http-method get
+request-param 会根据http-method 配置自动从请求的params 或者form中获取
 ```
     /**
      * 这个里是接口名/接口说明
@@ -26,12 +29,21 @@ demo
      * @return array
      */
 ```
+form字段参数
 ```
     /**
      * 这个里是接口名/接口说明
      * @http-method post
+     * @form-param string $business_id 业务线id required
+     * @form-param string $keyword 关键字(element.code, element.name, org.id)
+     * @return array
+     */
+```
+```
+    /**
+     * 这个里是接口名/接口说明
+     * @http-method delete
      * @request-param string $business_id 业务线id required
-     * @request-param string $keyword 关键字(element.code, element.name, org.id)
      * @return array
      */
 ```
