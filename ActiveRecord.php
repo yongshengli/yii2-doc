@@ -7,7 +7,7 @@
  * Email:liyongsheng@meicai.cn
  */
 
-namespace app\components;
+namespace yii2doc;
 
 use yii\behaviors\TimestampBehavior;
 
