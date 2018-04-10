@@ -4,7 +4,7 @@
     "keywords": ["api-doc", "yii2", "doc", "php"],
     "homepage": "https://github.com/yongshengli/yii2-doc",
     "type": "library",
-    "license": "GPL",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "David Lee",
