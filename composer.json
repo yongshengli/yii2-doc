@@ -1,5 +1,5 @@
 {
-    "name": "sheng/yii2-doc",
+    "name": "sheng/yii2doc",
     "description": "yii2接口文档生成",
     "keywords": ["api-doc", "yii2", "doc", "php"],
     "homepage": "https://github.com/yongshengli/yii2-doc",
