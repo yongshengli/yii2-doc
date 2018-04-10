@@ -1,4 +1,18 @@
 {
+    "name": "sheng/yii2-doc",
+    "description": "yii2接口文档生成",
+    "keywords": ["api-doc", "yii2", "doc", "php"],
+    "homepage": "https://github.com/yongshengli/yii2-doc",
+    "type": "project",
+    "license": "GPL",
+    "support": {
+        "issues": "https://github.com/yongshengli/yii2-doc/issues",
+        "forum": "https://github.com/yongshengli/yii2-doc/forum/",
+        "wiki": "https://github.com/yongshengli/yii2-doc/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yongshengli/yii2-doc/"
+    },
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "2.0.15.1"
     }
