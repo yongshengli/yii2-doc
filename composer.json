@@ -3,8 +3,16 @@
     "description": "yii2接口文档生成",
     "keywords": ["api-doc", "yii2", "doc", "php"],
     "homepage": "https://github.com/yongshengli/yii2-doc",
-    "type": "project",
+    "type": "library",
     "license": "GPL",
+    "authors": [
+        {
+            "name": "David Lee",
+            "email": "yongsheng_li@foxmail.com",
+            "homepage": "http://yiiphp.net/",
+            "role": "Creator"
+        }
+    ],
     "support": {
         "issues": "https://github.com/yongshengli/yii2-doc/issues",
         "forum": "https://github.com/yongshengli/yii2-doc/forum/",
@@ -18,5 +26,10 @@
     },
     "config": {
         "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "sheng\\yii2-doc\\": ""
+        }
     }
 }
