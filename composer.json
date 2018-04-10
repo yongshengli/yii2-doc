@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sheng\\yii2-doc\\": ""
+            "sheng\\yii2doc\\": "sheng\\yii2-doc\\"
         }
     }
 }
