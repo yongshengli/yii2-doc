@@ -3,7 +3,7 @@
     "description": "yii2接口文档生成",
     "keywords": ["api-doc", "yii2", "doc", "php"],
     "homepage": "https://github.com/yongshengli/yii2-doc",
-    "type": "library",
+    "type": "yii2-extension",
     "license": "GPL-3.0",
     "authors": [
         {
@@ -13,6 +13,7 @@
             "role": "Creator"
         }
     ],
+    "minimum-stability": "dev",
     "support": {
         "issues": "https://github.com/yongshengli/yii2-doc/issues",
         "forum": "https://github.com/yongshengli/yii2-doc/forum/",
