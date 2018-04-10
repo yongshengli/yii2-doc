@@ -7,7 +7,7 @@
  * Email:liyongsheng@meicai.cn
  */
 
-namespace yii2doc;
+namespace sheng\yii2doc;
 use yii\helpers\Url;
 use Yii;
 trait ApiDocTrait

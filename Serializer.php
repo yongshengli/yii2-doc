@@ -7,7 +7,7 @@
  * Email:liyongsheng@meicai.cn
  */
 
-namespace yii2doc;
+namespace sheng\yii2doc;
 
 use yii\web\Link;
 use yii\data\Pagination;

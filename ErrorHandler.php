@@ -7,7 +7,7 @@
  * Email:liyongsheng@meicai.cn
  */
 
-namespace yii2doc;
+namespace sheng\yii2doc;
 use Yii;
 use yii\web\Response;
 use yii\web\HttpException;
