@@ -7,7 +7,10 @@ yii2-doc根据action注释生成swagger所需的json文件
 
 INSTALLATION
 ---------------------------------------------------
+```
 composer require sheng/yii2doc
+
+```
 
 demo
 ---------------------------------------------------
