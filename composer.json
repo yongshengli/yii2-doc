@@ -20,7 +20,6 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yongshengli/yii2-doc/"
     },
-    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "2.0.15.1"
     },
